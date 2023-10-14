@@ -70,16 +70,9 @@ a{
     background: #d82a4e;
 }
 
-.footer-bottom {
-    overflow: hidden;
-    background: #edf4f6;
-    padding: 20px 0;
-    margin-top: 50px;
-}
-
 .footer-section {
     overflow: hidden;
-    background: #edf4f6;
+    background: #eee;
     padding: 20px 0;
     margin-top: 50px;
 }
