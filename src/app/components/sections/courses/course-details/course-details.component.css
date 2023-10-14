@@ -1,0 +1,120 @@
+.page-info{
+    background-image: url("/assets/Images/page-info.jpg");
+    height: 443px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.single-course{
+    padding-top: 115px;
+}
+
+.single-course h2{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin: 0;
+    font-weight: 600;
+    color: #474747;
+}
+
+.course-meta-area {
+    background: #edf4f6;
+    padding: 35px 0;
+    margin-bottom: 40px;
+}
+
+.course-meta-area .course-note {
+    display: inline-block;
+    background: #d82a4e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 15px;
+    margin-bottom: 20px;
+}
+
+.course-meta-area h3{
+    margin: 0;
+    font-weight: 600;
+    color: #474747;
+    font-size: 30px;
+}
+
+.course-img{
+    background-size: contain;
+    height: 148px;
+    transition: all 0.2s;
+    background-repeat: no-repeat;
+}
+
+.course-metas {
+    padding-top: 50px;
+    margin-bottom: 45px;
+    display: table;
+}
+
+.course-meta {
+    display: table-cell;
+    height: 100%;
+    border-right: 2px solid #c5ced0;
+    padding: 5px 50px;
+}
+
+.course-meta:first-child {
+    padding-left: 0;
+}
+
+.course-meta:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.course-meta .cm-info p {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+}
+
+.course-meta-area .buy-btn {
+    padding: 20px 40px;
+    min-width: auto;
+    font-size: 14px;
+}
+
+.course-meta .rating {
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.rating i {
+    color: #fbb710;
+}
+
+.course-list .cl-item h4 {
+    margin-bottom: 46px;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: #474747;
+}
+
+.cl-item p {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+
+.course-meta-area .price-btn {
+    padding: 20px 30px;
+    background: #474747;
+    margin-left: 15px;
+
+    min-width: auto;
+    font-size: 14px;
+}

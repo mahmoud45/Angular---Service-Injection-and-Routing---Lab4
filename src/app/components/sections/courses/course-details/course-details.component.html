@@ -1,0 +1,63 @@
+<div class="page-info">
+
+</div>
+
+<section class="single-course pb-0">
+    <div class="container">
+        <h2>Course Details</h2>
+        <div class="course-meta-area">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="course-note">Featured Course</div>
+
+                    <div class="course-img" [style.background-image]="'url(' + course?.ImageURL +')'">
+
+                    </div>
+                    <div class="course-metas">
+                        <div class="course-meta">
+                            <div class="cm-info">
+                                <h6>Course Name</h6>
+                                <p>{{ course?.Name }}</p>
+
+                            </div>
+                        </div>
+
+                        <div class="course-meta">
+                            <div class="cm-info">
+                                <h6>Course Price</h6>
+                                <p>{{ course?.Price }}</p>
+
+                            </div>
+                        </div>
+
+                        <div class="course-meta">
+                            <div class="cm-info">
+                                <h6>Reviews</h6>
+                                <p>2 Reviews <span class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                </span></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="site-btn buy-btn">Buy This Course</a>
+                    <a [routerLink]="['/courses']" class="site-btn price-btn">Back to Courses</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-10 course-list">
+                <div class="cl-item">
+                    <h4>Course Description</h4>
+                    <p>{{ course?.Description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,57 @@
+<div class="page-info-section set-bg" [style.background-image]="'url(/assets/Images/form-img.jpg)'">
+
+</div>
+
+<section class="create-course pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1 ">
+                <div class="create-form-warp">
+                    <div class="section-title text-white text-left">
+                        <h2>Create New Course</h2>
+                    </div>
+
+                    <form (submit)="createCourse($event)" class="create-form">
+                        <div class="mb-3">
+
+                            <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                placeholder="Course Name"
+
+                                [(ngModel)]="name"
+                            />
+                        </div>
+
+                        <div class="mb-3">
+                            <input
+                                type="text"
+                                name="description"
+                                class="form-control"
+                                placeholder="Course Description"
+
+                                [(ngModel)]="desc"
+                            />
+                        </div>
+
+                        <div class="mb-3">
+                            <input
+                                type="number"
+                                name="Price"
+                                class="form-control"
+                                placeholder="Course Price"
+
+                                [(ngModel)] = "price"
+                            />
+                        </div>
+
+                        <div class="mb-2 ">
+                            <button class="site-btn btn btn-warning">{{ editCourseId === undefined ? 'Create' : 'Update' }}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

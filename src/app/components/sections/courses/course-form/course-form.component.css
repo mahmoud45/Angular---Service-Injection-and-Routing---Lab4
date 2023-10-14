@@ -1,0 +1,22 @@
+.create-course{
+    padding-top: 115px;
+}
+
+.create-form-warp {
+    background: #d82a4e;
+    padding: 45px 47px;
+}
+
+.create-form-warp .section-title {
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.create-form-warp .create-form {
+    padding: 69px 40px 47px;
+    background: #fff;
+}
+
+.create-form .site-btn {
+    padding: 17px 10px;
+}

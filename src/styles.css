@@ -1,1 +1,129 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 14.1px;
+    line-height: 2.2;
+    color: #878787;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-pad {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.header-section{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+}
+
+.main-menu ul{
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline;
+}
+
+.main-menu ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 45px;
+    font-weight: 600;
+    padding: 20px 0 5px;
+}
+
+.page-info-section {
+    height: 443px;
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.site-btn {
+    display: inline-block;
+    min-width: 196px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background: #d82a4e;
+}
+
+.footer-bottom {
+    overflow: hidden;
+    background: #edf4f6;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-section {
+    overflow: hidden;
+    background: #edf4f6;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.copyright {
+    padding-top: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-wrap{
+    max-width: 1559px;
+    padding: 0 15px;
+}
+
+.footer-menu ul{
+    list-style: none;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu li a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #474747;
+    padding-right: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.footer-menu li a::after {
+    position: absolute;
+    content: "|";
+    right: 0;
+    top: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+

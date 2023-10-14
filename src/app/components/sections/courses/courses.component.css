@@ -1,0 +1,58 @@
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #474747;
+}
+
+.section-title {
+    text-align: center;
+    padding: 0 110px;
+    margin-bottom: 110px;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+}
+
+.category-item {
+    margin-bottom: 34px;
+    background: #edf4f6;
+    transition: all 0.4s;
+}
+
+.category-item:hover {
+    background: #d82a4e;
+}
+
+.category-item .ci-thumb {
+    background-size: cover;
+    height: 148px;
+    transition: all 0.2s;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.category-item .ci-text {
+    padding: 40px 35px 10px;
+}
+
+.category-item .ci-text span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #d82a4e;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.course-actions a, .course-actions button{
+    width: 125px;
+    margin: 10px;
+}
+
